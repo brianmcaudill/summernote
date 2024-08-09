@@ -27,10 +27,16 @@ You can debug unit tests with VSCode following the steps:
 ```
 
 3. On terminal, run test with command:
+Make sure you have vitest installed. npm install -D vitest
 
 ```
 yarn test
 ```
+or
+```
+npm run test
+```
+npx vitest
 
 4. Open vscode
 5. Set breakpoint on code
